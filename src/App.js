@@ -35,6 +35,7 @@ function App() {
 
   return (
     <div className='header field'>
+      Matt Nudds
       VAT CALCULATOR
       <div className='colour-border'>
         <VatRateField customstyle="field" vatRateChanged={handleVatRateChanged} value={vatRate} updatePrices={updatePrices} />
